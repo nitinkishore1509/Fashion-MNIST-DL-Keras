@@ -56,6 +56,16 @@ Conv2D → ReLU → MaxPooling2D → Dropout
 
 Flatten → Dense(128) → ReLU → Dropout → Dense(10, softmax)
 
+
+---
+
+## 📈 Training & Evaluation
+- **Loss function**: `categorical_crossentropy`
+- **Optimizer**: `adam`
+- **Metrics**: `accuracy`
+- **Epochs**: 10 (modifiable)
+- **Batch size**: 128
+
 ---
 
 **Final Performance (Test set)**:
