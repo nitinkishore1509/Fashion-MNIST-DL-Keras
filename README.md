@@ -51,7 +51,9 @@ The CNN model was built using **Keras** and consists of:
 Example architecture:
 
 Conv2D → ReLU → MaxPooling2D → Dropout
+
 Conv2D → ReLU → MaxPooling2D → Dropout
+
 Flatten → Dense(128) → ReLU → Dropout → Dense(10, softmax)
 
 ---
